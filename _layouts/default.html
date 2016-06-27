@@ -10,18 +10,19 @@
 
   <title>{{ site.name }}</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="{{ site.url }}/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+  
   <!-- Custom styles for this template -->
-  <link href="{{ site.url }}/css/justified-nav.css" rel="stylesheet">
+  <!--<link href="{{ site.url }}/css/justified-nav.css" rel="stylesheet">-->
 
 </head>
 
 <body>
 
   <div class="container">
-    
+
     {% include navbar.html %}
 
     {{ content }}
